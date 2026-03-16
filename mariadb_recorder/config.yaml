@@ -11,10 +11,11 @@ arch:
 startup: services
 boot: autoinit
 init: false
+apparmor: false
 ports:
-  3306/tcp: 3306
+  3306/tcp: null
 ports_description:
-  3306/tcp: "MariaDB internal instance port (used only in internal_mariadb mode)"
+  3306/tcp: "Optional host port mapping for internal MariaDB"
 map:
   - addon_config:rw
 options:

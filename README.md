@@ -1,6 +1,10 @@
-# Home Assistant Custom Add-on Repository: MariaDB Recorder Backend
+﻿# Home Assistant Custom Add-on Repository: MariaDB Recorder Backend
 
 This repository contains a production-ready Home Assistant custom add-on that helps you run Home Assistant Recorder on MariaDB instead of SQLite.
+
+Repository URL to add in Home Assistant:
+
+`https://github.com/chmajster/home-assistant-DataBase-Manage-automation`
 
 ## Included add-on
 
@@ -10,9 +14,9 @@ This repository contains a production-ready Home Assistant custom add-on that he
 
 ## Add repository to Home Assistant
 
-1. Open **Settings → Add-ons → Add-on Store**.
-2. Click the three-dot menu (top-right) → **Repositories**.
-3. Add this repository URL.
+1. Open **Settings -> Add-ons -> Add-on Store**.
+2. Click the three-dot menu (top-right) -> **Repositories**.
+3. Add the repository URL.
 4. Install **MariaDB Recorder Backend**.
 
 ## Documentation
@@ -22,6 +26,5 @@ This repository contains a production-ready Home Assistant custom add-on that he
 
 ## Repository layout
 
-- `repository.yaml` — Home Assistant add-on repository metadata
-- `mariadb_recorder/` — add-on source code and documentation
-
+- `repository.yaml` - Home Assistant add-on repository metadata
+- `mariadb_recorder/` - add-on source code and documentation
