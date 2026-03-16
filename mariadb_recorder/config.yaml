@@ -1,6 +1,6 @@
 name: "MariaDB Recorder Backend"
 version: "1.0.0"
-slug: "mariadb_recorder_backend"
+slug: "mariadb_recorder"
 description: "MariaDB backend helper for Home Assistant recorder (internal or external MariaDB)"
 arch:
   - aarch64
@@ -49,5 +49,4 @@ schema:
   ssl_mode: list(disabled|required|verify_ca|verify_identity)?
   additional_parameters: str?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-image: "ghcr.io/example/{arch}-addon-mariadb-recorder"
 panel_icon: "mdi:database-cog"

@@ -24,8 +24,6 @@ Dodatek działa w dwóch trybach:
 3. Dodaj URL tego repozytorium.
 4. Zainstaluj dodatek **MariaDB Recorder Backend**.
 
-> Przed publikacją ustaw poprawny adres repozytorium w pliku `repository.yaml`.
-
 ## Dokumentacja dodatku
 
 Pełna dokumentacja (EN) dla konfiguracji, integracji z recorder, troubleshooting i ograniczeń:

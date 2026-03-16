@@ -4,7 +4,7 @@ This repository contains a production-ready Home Assistant custom add-on that he
 
 ## Included add-on
 
-- **MariaDB Recorder Backend** (`mariadb_recorder_backend`)
+- **MariaDB Recorder Backend** (`mariadb_recorder`)
   - `internal_mariadb` mode: runs and maintains local MariaDB inside the add-on.
   - `external_mariadb` mode: validates and prepares connection details for your own external MariaDB.
 
@@ -14,8 +14,6 @@ This repository contains a production-ready Home Assistant custom add-on that he
 2. Click the three-dot menu (top-right) → **Repositories**.
 3. Add this repository URL.
 4. Install **MariaDB Recorder Backend**.
-
-> Replace the URL in `repository.yaml` with your real GitHub repository URL before publishing.
 
 ## Documentation
 
